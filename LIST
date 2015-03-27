@@ -1,0 +1,9 @@
+#!/bin/bash
+#This script will be used to show each of the scripts in my scripts repository.
+a=$(ls ~/scripts)
+function ListScripts {
+	for i in $a; do
+	echo $i
+	done
+}
+ListScripts
